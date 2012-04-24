@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@class MainViewController;
+#import "WebViewController.h"
+
+@class WebViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) MainViewController *mainViewController;
+@property (strong, nonatomic) WebViewController *webViewController;
 
 @end
